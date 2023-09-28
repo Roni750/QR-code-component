@@ -16,7 +16,7 @@ html {
 
 .card {
     margin: 0 auto;
-    margin-block-start: 8em;
+    margin-block-start: 9em;
     margin-block-end: 5em;
     background: white;
     border-radius: 20px;
@@ -28,20 +28,20 @@ html {
     font-weight: 700;
     font-family: 'Outfit', sans-serif;
     color: hsl(218, 44%, 22%);
-    height: 490px;
+    height: 480px;
     width: 320px;
     text-align: center;
 
     .title {
-        font-size: 25px;
-        margin-block-end: 15px;
-        margin-block-start: 20px;
+        font-size: 23px;
+        margin: 18px;
     }
 
     .sub-title {
-        font-size: 18px;
+        font-size: 16px;
         color: hsl(220, 15%, 55%);
         font-weight: 400;
+        margin: 19px;
     }
 
     .img {
