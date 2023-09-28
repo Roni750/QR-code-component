@@ -1,49 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-    html {
-      background: #d5e1ef;
-    }
+html {
+    background: #d5e1ef;
+}
 
-    .attribution {
-      font-size: 13px;
-      font-family: 'Outfit', sans-serif;
-      text-align: center;
-    }
+.attribution {
+    font-size: 13px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
 
-    .card {
-      margin: 0 auto;
-      margin-block-start: 5em;
-      margin-block-end: 5em;
-      background: white;
-      border-radius: 20px;
-      width: 200px;
-      box-shadow: 20px 20px 60px hsl(220, 15%, 75%),
+.card {
+    margin: 0 auto;
+    margin-block-start: 8em;
+    margin-block-end: 5em;
+    background: white;
+    border-radius: 20px;
+    width: 200px;
+    box-shadow: 20px 20px 60px hsl(220, 15%, 75%),
         -20px -20px 60px hsl(212, 45%, 89%);
-      padding: 15px;
-      font-size: 15px;
-      font-weight: 700;
-      font-family: 'Outfit', sans-serif;
-      color: hsl(218, 44%, 22%);
-      height: 467px;
-      width: 320px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(218, 44%, 22%);
+    height: 467px;
+    width: 320px;
+    text-align: center;
 
-      .title {
-        font-size: 27px;
-        margin-block-end: 20px;
-        margin-block-start: 9px;
-      }
+    .title {
+        font-size: 25px;
+        margin-block-end: 15px;
+        margin-block-start: 20px;
+    }
 
-      .sub-title {
+    .sub-title {
+        font-size: 18px;
         color: hsl(220, 15%, 55%);
         font-weight: 400;
-      }
+    }
 
-      .img {
+    .img {
         width: 320px;
         border-radius: 12.5px;
-      }
     }
+}
